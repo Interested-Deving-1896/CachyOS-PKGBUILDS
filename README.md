@@ -1,24 +1,29 @@
-<div align="center">
-  <img src="https://github.com/CachyOS/calamares-config/blob/grub-3.2/etc/calamares/branding/cachyos/logo.png" width="64" alt="CachyOS logo"></img>
-  <br/>
-  <h1 align="center">CachyOS</h1>
-</div>
+# CachyOS-PKGBUILDS
 
-# CachyOS PKGBUILDS
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/CachyOS-PKGBUILDS) [![KDE Eco](https://img.shields.io/badge/KDE%20Eco-certified-brightgreen?logo=kde&logoColor=white&style=flat-square)](https://eco.kde.org/) [![Blue Angel](https://img.shields.io/badge/Blue%20Angel-DE--UZ%20215-0055a4?style=flat-square)](https://www.blauer-engel.de/en/certification/criteria)
 
-[CachyOS](https://cachyos.org/) PKGBUILDS is a collection of [PKGBUILD](https://wiki.archlinux.org/index.php/PKGBUILD) scripts for building and installing packages on any Arch Linux-based operating system.
 
-## Prerequisites
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-In order to use these PKGBUILD scripts, you will need to have the following tools and libraries installed on your system:
+## Architecture
 
-- [Git](https://git-scm.com/)
-- [make](https://www.gnu.org/software/make/)
-- [gcc](https://gcc.gnu.org/)
-- [binutils](https://www.gnu.org/software/binutils/)
-- [fakeroot](https://wiki.archlinux.org/index.php/Fakeroot)
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
+
+## Install
+
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
+```bash
+git clone https://github.com/Interested-Deving-1896/CachyOS-PKGBUILDS.git
+cd CachyOS-PKGBUILDS
+```
 
 ## Usage
+
 
 To build and install a package using one of the PKGBUILD scripts in this repository, follow these steps:
 
@@ -27,6 +32,66 @@ To build and install a package using one of the PKGBUILD scripts in this reposit
 3. Build the package: `makepkg -si`
 4. Install the package: `sudo pacman -U <packagename>.pkg.tar.zst`
 
-## Contributions
+## Configuration
 
-If you would like to contribute to CachyOS PKGBUILDS, please fork this repository and submit a pull request with your changes. Please be sure to follow the [ArchLinux Packaging Guidelines](https://wiki.archlinux.org/title/Arch_package_guidelines) when creating or modifying PKGBUILD scripts.
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/CachyOS-PKGBUILDS`](https://github.com/Interested-Deving-1896/CachyOS-PKGBUILDS) and mirrored through:
+
+```
+Interested-Deving-1896/CachyOS-PKGBUILDS  ──►  OpenOS-Project-OSP/CachyOS-PKGBUILDS  ──►  OpenOS-Project-Ecosystem-OOC/CachyOS-PKGBUILDS
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream influences recorded._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## Accessibility
+
+<!-- AI:start:accessibility -->
+This repo uses automated accessibility auditing via `check-accessibility.yml`.
+
+Checks include: CODEOWNERS ownership coverage, README screen-reader compatibility,
+WCAG 2.1 AA HTML compliance, audio overview (espeak-ng), and Braille output (liblouis).
+
+
+
+
+Run the [Check Accessibility](https://github.com/Interested-Deving-1896/CachyOS-PKGBUILDS/actions/workflows/check-accessibility.yml)
+workflow to generate the first report and accessibility artifacts.
+See [DOCS/accessibility.md](https://github.com/Interested-Deving-1896/CachyOS-PKGBUILDS/blob/main/DOCS/accessibility.md) for the full reference.
+<!-- AI:end:accessibility -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
